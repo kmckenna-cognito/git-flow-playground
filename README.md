@@ -1,7 +1,5 @@
 # Git Flow Prototype #
 
-**Note**: Please merge your own pull requests, there's no need to assign them to someone.
-
 You can use this repository to learn the commands needed for Git Flow. The main idea is to branch off the `develop` branch rather than the `master` branch. When you make pull requests, you want to merge into `develop`, not `master`.
 
 ## Exercise ##
