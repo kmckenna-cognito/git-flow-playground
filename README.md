@@ -6,8 +6,8 @@ You can use this repository to learn the commands needed for Git Flow. The main 
 
 ## Exercise ##
 1. Clone the repository.
-2. Checkout a new feature branch called `feature/my-name`.
-3. Add your name to the file `names.txt` and commit the changes on the `feature/my-name` branch.
+2. Checkout a new feature branch called `feature/added-<firstname>-<lastname>`, e.g. `feature/added-kelsey-mckenna`.
+3. Add your name to the file `names.txt` and commit the changes on your feature branch.
 4. Push your feature branch and then submit a pull request to merge your feature branch into `develop`. (Make sure to delete the branch on GitHub)
 5. Delete your local feature once the pull request is merged.
 6. Sync your local `develop` branch with the remote.
@@ -16,8 +16,8 @@ You can use this repository to learn the commands needed for Git Flow. The main 
 
 ## Solution ##
 1. `git clone https://github.com/kmckenna-cognito/git-flow-prototype.git && cd git-flow-prototype`
-2. `git checkout -b my-name develop`
+2. `git checkout -b feature/added-<firstname>-<lastname> develop`
 3. `git commit -a -m "Added my name"`
-4. `git push -u origin feature/my-name`
+4. `git push -u origin feature/added-<firstname>-<lastname>`
 5. `git checkout develop && git branch -d git-flow-prototype`
 6. `git pull`
