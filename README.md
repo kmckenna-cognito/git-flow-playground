@@ -6,8 +6,8 @@ You can use this repository to learn the commands needed for Git Flow. The main 
 1. Clone the repository.
 2. Checkout a new feature branch called `feature/added-<firstname>-<lastname>`, e.g. `feature/added-kelsey-mckenna`.
 3. Add your name to the file `names.txt` and commit the changes on your feature branch.
-4. Push your feature branch and then submit a pull request to merge your feature branch into `develop`. (Make sure to delete the branch on GitHub)
-5. Delete your local feature once the pull request is merged.
+4. Push your feature branch and then submit a pull request to merge your feature branch into `develop`.
+5. Delete your local feature branch once the pull request is merged.
 6. Sync your local `develop` branch with the remote.
 
 ***
